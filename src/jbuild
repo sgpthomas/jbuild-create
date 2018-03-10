@@ -1,0 +1,10 @@
+(jbuild_version 1)
+
+(executable
+ ((name main)
+  (libraries (core cmdliner))
+  (flags (:standard -g))))
+
+(install
+ ((section toplevel)
+  (files ((main.exe as jbuild-create)))))

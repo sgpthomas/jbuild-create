@@ -1,0 +1,7 @@
+lib: [
+  "_build/install/default/lib/jbuild-create/META" {"META"}
+  "_build/install/default/lib/jbuild-create/opam" {"opam"}
+]
+toplevel: [
+  "_build/install/default/lib/toplevel/jbuild-create" {"jbuild-create"}
+]
