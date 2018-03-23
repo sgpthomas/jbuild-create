@@ -2,9 +2,9 @@
 
 (executable
  ((name main)
-  (libraries (core cmdliner))
+  (libraries (core cmdliner re2))
   (flags (:standard -g))))
 
 (install
- ((section toplevel)
+ ((section bin)
   (files ((main.exe as jbuild-create)))))
